@@ -1,9 +1,9 @@
 import { readFile } from "fs/promises";
-import { resolve } from "path";
+import { join } from "path";
 
 export async function GET() {
 	const agents = (
-		await readFile(resolve(process.cwd(), "../agents.txt"), {
+		await readFile(join(process.cwd(), "agents.txt"), {
 			encoding: "utf-8",
 		})
 	).split("\n");
