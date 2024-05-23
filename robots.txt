@@ -1,0 +1,10 @@
+User-agent: anthropic-ai
+User-agent: Bytespider
+User-agent: ClaudeBot
+User-agent: Claude-Web
+User-agent: cohere-ai
+User-agent: Diffbot
+User-agent: FacebookBot
+User-agent: GPTBot
+User-agent: omgili
+Disallow: /
