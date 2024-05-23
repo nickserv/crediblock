@@ -10,7 +10,7 @@ overrides:
 importers:
 
   .:
-    dependencies:
+    devDependencies:
       '@types/node':
         specifier: ^20.12.12
         version: 20.12.12
