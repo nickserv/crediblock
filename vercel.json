@@ -1,6 +1,5 @@
 {
 	"cleanUrls": true,
-	"installCommand": "pnpm install --prod",
 	"public": true,
 	"rewrites": [
 		{
