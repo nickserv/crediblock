@@ -1,5 +1,4 @@
 {
-	"type": "module",
 	"dependencies": {
 		"@types/node": "^20.12.12",
 		"cspell": "^8.8.2",
