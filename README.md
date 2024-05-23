@@ -1,6 +1,6 @@
 # Crediblock
 
-Open source `robots.txt` blocklist for uncredited AI crawlers
+Open source `robots.txt` denylist for uncredited AI crawlers
 
 ## Installation
 
