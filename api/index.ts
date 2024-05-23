@@ -6,7 +6,9 @@ export async function GET() {
 		await readFile(join(process.cwd(), "agents.txt"), {
 			encoding: "utf-8",
 		})
-	).split("\n");
+	)
+		.trimEnd()
+		.split("\n");
 	const agentsString = agents.map((agent) => `User-agent: ${agent}`).join("\n");
 	return new Response(`${agentsString}\nDisallow: /`);
 }
