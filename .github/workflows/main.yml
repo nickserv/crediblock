@@ -1,0 +1,22 @@
+name: CI
+
+on: [push, pull_request]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Install pnpm
+        uses: pnpm/action-setup@v3
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          cache: pnpm
+      - name: Install dependencies
+        run: pnpm install
+      - name: Format with Prettier
+        run: pnpm prettier --check .
+      - name: Check with CSpell
+        run: pnpm cspell .
