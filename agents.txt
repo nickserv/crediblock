@@ -1,0 +1,9 @@
+anthropic-ai
+Bytespider
+ClaudeBot
+Claude-Web
+cohere-ai
+Diffbot
+FacebookBot
+GPTBot
+omgili
